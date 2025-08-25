@@ -1,0 +1,7 @@
+Django
+pytesseract
+Pillow
+face-recognition
+opencv-python
+reportlab
+gTTS

@@ -1,0 +1,8 @@
+{% extends "kyc/base.html" %}
+{% block content %}
+<div class="container mt-5">
+    <h1 class="text-success">KYC Process Completed Successfully!</h1>
+    <p>Your KYC has been successfully submitted and is now under review. You will receive a confirmation email shortly.</p>
+    <a href="{% url 'kyc_home' %}" class="btn btn-primary">Go to Home</a>
+</div>
+{% endblock %}
